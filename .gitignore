@@ -1,0 +1,35 @@
+# ===== Keil MDK build artifacts =====
+**/project/Objects/
+**/project/Listings/
+**/build/
+**/*.o
+**/*.d
+**/*.axf
+**/*.map
+**/*.lst
+**/*.htm
+**/*.dep
+**/*.lnp
+**/*.crf
+**/*.obj
+
+# ===== Keil user-specific files =====
+**/*.uvguix.*
+**/*.uvoptx
+**/*.uvgui.*
+
+# ===== EIDE / VS Code local files =====
+**/.vscode/
+**/.eide/log/
+**/.eide_dbg/
+**/.eide.usr.ctx.json
+**/*.log
+
+# ===== Temporary / OS files =====
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
